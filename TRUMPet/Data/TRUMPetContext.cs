@@ -13,5 +13,9 @@ namespace TRUMPet.Data
         
 
         public DbSet<Genre> Genre { get; set; } = default!;
+        public DbSet<TRUMPet.Domain.Artist> Artist { get; set; } = default!;
+        public DbSet<TRUMPet.Domain.Song> Song { get; set; } = default!;
+        public DbSet<TRUMPet.Domain.Staff> Staff { get; set; } = default!;
+        public DbSet<TRUMPet.Domain.User> User { get; set; } = default!;
     }
 }
